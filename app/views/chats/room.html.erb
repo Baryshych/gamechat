@@ -1,0 +1,34 @@
+<%= subscribe_to "/messages/public" %>
+<%= subscribe_to "/messages/private/#{session[:username]}" %>
+
+<script>
+    PrivatePub.subscribe("/messages/public", function(data) {
+    $('<p></p>').html(data.username + ": " + data.msg).appendTo('#chat_room');
+  });
+  
+  PrivatePub.subscribe("/messages/private/<%= current_user.username %>", function(data) {
+    $('<p></p>').addClass('private').html(data.username + ": " + data.msg).appendTo('#private_room');
+  });
+</script>
+
+<div class="chat_container">
+    <p class="alert"> Welcome to the chat room, <%= current_user.username %>! </p>
+    <div id="chat_room">
+    </div>
+    <p class="alert"> Your private messages: </p>
+    <div id="private_room">
+    </div>
+
+    <div>
+  <%= form_tag new_message_path, :remote => true do %>
+  <%= text_field_tag :message %>
+  <%= submit_tag "Send" %>
+    </div>
+</div>
+    <div class='logout_bar'>
+     <a href='/users/edit'>Изменить профиль</a>
+     <%= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
+    </div>
+
+
+<% end %>

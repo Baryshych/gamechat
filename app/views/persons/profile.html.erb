@@ -1,0 +1,5 @@
+<h1>Persons#profile</h1>
+    <span>Здравствуйте, <%= current_user.username %></span>
+    <%= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
+    <a href='/chatroom'>Войти в чятик</a>
+    <a href='/users/edit'>Изменить профиль</a>

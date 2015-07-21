@@ -1,0 +1,38 @@
+// Place all the styles related to the chats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    color: #1C1C1C;
+    background-color: #C1CDCD;
+}
+
+#chat_room{
+	width: 75%; /* Ширина блока */
+    height: 250px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #A9ADB7;
+    
+}
+#private_room{
+	width: 75%; /* Ширина блока */
+    height: 150px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #A9ADB7;
+}
+.private {
+	font-weight: bold;
+}
+
+.logout_bar{
+    margin-left:80%;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+}
