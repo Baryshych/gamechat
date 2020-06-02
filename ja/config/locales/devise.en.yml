@@ -1,0 +1,37 @@
+---
+ja:
+  devise:
+    confirmations:
+      confirmed: メールアドレスの確認に成功しました。
+      send_instructions: 数分であなたのメールアドレスを確認する方法の説明が記載されたメールが届きます。
+      send_paranoid_instructions: あなたのメールアドレスが私たちのデータベースに存在する場合、あなたは数分であなたのメールアドレスを確認する方法についての手順が記載されたメールを受け取ります。
+    failure:
+      already_authenticated: すでにサインインしています。
+      inactive: アカウントはまだアクティブ化されていません。
+      invalid: "％{authentication_keys}またはパスワードが無効です。"
+      locked: あなたのアカウントはロックされています。
+      last_attempt: アカウントがロックされる前に、もう一度試みてください。
+      not_found_in_database: "％{authentication_keys}またはパスワードが無効です。"
+      timeout: セッションの有効期限が切れました。続行するには、もう一度サインインしてください。
+      unauthenticated: 続行する前にサインインまたはサインアップする必要があります。
+      unconfirmed: 続行する前にメールアドレスを確認する必要があります。
+    mailer:
+      confirmation_instructions:
+        subject: 確認手順
+      reset_password_instructions:
+        subject: パスワードのリセット手順
+      unlock_instructions:
+        subject: ロック解除手順
+    omniauth_callbacks:
+      failure: "「％{reason}」が原因で％{kind}から認証できませんでした。"
+      success: "％{kind}アカウントからの認証に成功しました。"
+    passwords:
+      no_token: このページにアクセスするには、パスワードのリセットメールを送信する必要があります。パスワードリセットのメールを受け取った場合は、提供された完全なURLを使用していることを確認してください。
+      send_instructions: 数分でパスワードをリセットする方法が記載されたメールが届きます。
+      send_paranoid_instructions: あなたのメールアドレスが私たちのデータベースに存在する場合、数分であなたのメールアドレスにパスワード回復リンクが届きます。
+      updated: パスワードが正常に変更されました。ログインしました。
+      updated_not_active: パスワードが正常に変更されました。
+    registrations:
+      destroyed: バイバイ！アカウントはキャンセルされました。またお会いしましょう。
+      signed_up: ようこそ！正常にサインアップしました。
+      signed_up_but_inactive: 正常にサインアップしました。ただし、アカウントがまだ有効になっていないため、サインインできませんでした。
