@@ -2,15 +2,15 @@
 ja:
   devise:
     confirmations:
-      confirmed: メールアドレスの確認に成功しました。
+      confirmed: メールアドレスの確認に成功しました。1
       send_instructions: 数分であなたのメールアドレスを確認する方法の説明が記載されたメールが届きます。
       send_paranoid_instructions: あなたのメールアドレスが私たちのデータベースに存在する場合、あなたは数分であなたのメールアドレスを確認する方法についての手順が記載されたメールを受け取ります。
     failure:
       already_authenticated: すでにサインインしています。
       inactive: アカウントはまだアクティブ化されていません。
       invalid: "％{authentication_keys}またはパスワードが無効です。"
-      locked: あなたのアカウントはロックされています。
       last_attempt: アカウントがロックされる前に、もう一度試みてください。
+      locked: あなたのアカウントはロックされています。
       not_found_in_database: "％{authentication_keys}またはパスワードが無効です。"
       timeout: セッションの有効期限が切れました。続行するには、もう一度サインインしてください。
       unauthenticated: 続行する前にサインインまたはサインアップする必要があります。
@@ -37,12 +37,12 @@ ja:
       signed_up_but_inactive: 正常にサインアップしました。ただし、アカウントがまだ有効になっていないため、サインインできませんでした。
       signed_up_but_locked: 正常にサインアップしました。ただし、アカウントがロックされているため、サインインできませんでした。
       signed_up_but_unconfirmed: 確認リンクが記載されたメッセージがメールアドレスに送信されました。リンクをクリックして、アカウントを有効にしてください。
-      update_needs_confirmation: アカウントは正常に更新されましたが、新しいメールアドレスを確認する必要があります。メールを確認し、確認リンクに従って新しいメールアドレスを確認してください。
       updated: アカウントは正常に更新されました。
+      update_needs_confirmation: アカウントは正常に更新されましたが、新しいメールアドレスを確認する必要があります。メールを確認し、確認リンクに従って新しいメールアドレスを確認してください。
     sessions:
+      already_signed_out: 正常にログアウトしました。
       signed_in: 正常にサインインしました。
       signed_out: 正常にログアウトしました。
-      already_signed_out: 正常にログアウトしました。
     unlocks:
       send_instructions: 数分でアカウントのロックを解除する方法が記載されたメールが届きます。
       send_paranoid_instructions: アカウントが存在する場合、数分でロックを解除する方法の手順が記載されたメールが届きます。
