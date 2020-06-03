@@ -1,7 +1,7 @@
 ---
 commands:
   help: このヘルプ画面を表示します
-  cheat: アイテムをごまかすことができます
+  cheat: アイテムをごまかすことができます1
   give: 誰かにSlimefunアイテムを与える
   guide: Slimefunガイドを自分に与える
   timings: サーバーのラグ情報
