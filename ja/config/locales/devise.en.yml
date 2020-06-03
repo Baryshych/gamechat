@@ -2,7 +2,7 @@
 ja:
   devise:
     confirmations:
-      confirmed: メールアドレスの確認に成功しました。
+      confirmed: メールアドレスの確認に成功しました。1
       send_instructions: 数分であなたのメールアドレスを確認する方法の説明が記載されたメールが届きます。
       send_paranoid_instructions: あなたのメールアドレスが私たちのデータベースに存在する場合、あなたは数分であなたのメールアドレスを確認する方法についての手順が記載されたメールを受け取ります。
     failure:
