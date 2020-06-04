@@ -13,6 +13,7 @@ commands:
     description: プレーヤーのリサーチのロックを解除/リセット
     reset: "＆c％player％の知識をリセットしました"
     reset-target: "＆cナレッジがリセットされました"
+  cheat: アイテムをごまかすことができます1
 guide:
   locked: ロックされています
   locked-category:
