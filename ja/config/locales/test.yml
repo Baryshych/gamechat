@@ -1,7 +1,6 @@
 ---
 commands:
   help: このヘルプ画面を表示します
-  cheat: アイテムをごまかすことができます
   give: 誰かにSlimefunアイテムを与える
   guide: Slimefunガイドを自分に与える
   timings: サーバーのラグ情報
@@ -14,6 +13,7 @@ commands:
     description: プレーヤーのリサーチのロックを解除/リセット
     reset: "＆c％player％の知識をリセットしました"
     reset-target: "＆cナレッジがリセットされました"
+  cheat: アイテムをごまかすことができます1
 guide:
   locked: ロックされています
   locked-category:
